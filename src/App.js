@@ -51,6 +51,7 @@ class App extends Component {
       >
         <>
           <div className="app-container">
+            <HashRouter>
             <Switch>
               <Route exact path="/login" component={Login} />
               <>
@@ -74,6 +75,7 @@ class App extends Component {
                 </div>
               </>
             </Switch>
+            </HashRouter>
           </div>
         </>
       </AppTheme.Provider>
