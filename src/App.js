@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, HashRouter} from 'react-router-dom'
 import './App.css'
 
 import AppTheme from './context/Theme'
